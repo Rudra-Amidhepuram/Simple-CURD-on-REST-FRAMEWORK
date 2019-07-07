@@ -34,10 +34,10 @@ Running the Prject:
 ```python 
   python manage.py runserver
  ```
-1) To list all the repositories :localhost:8000/Git/repo
-2) To list events of a repo:localhost:8000/Git/rep/?r_id=?
-3) To list all the events :localhost:8000/Git/events
-4) To list actors of an event:localhost:8000/Git/evt/?e_id=?
-5) To list all the actors :localhost:8000/Git/actors
-6) To update/delete event:localhost:8000/Git/event/id?
-7)To add an event :localhost:8000/Git/add
+1) To list all the repositories :localhost:8000/repo
+2) To list events of a repo:localhost:8000/rep/?r_id=?
+3) To list all the events :localhost:8000/events
+4) To list actors of an event:localhost:8000/actor_events/?e_id=?
+5) To list all the actors :localhost:8000/actors
+6) To update/delete event:localhost:8000/event/id?
+7)To add an event :localhost:8000/add
