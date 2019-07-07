@@ -27,7 +27,7 @@ class EventsViews(generics.ListAPIView):
 
 class ActorViews(generics.ListAPIView):
 	serializer_class=ActorSerializer
-	queryset=Event.objects.all()
+	queryset=Actor.objects.all()
 	
 class Actor_events(generics.ListAPIView):
 	serializer_class=ActorSerializer
