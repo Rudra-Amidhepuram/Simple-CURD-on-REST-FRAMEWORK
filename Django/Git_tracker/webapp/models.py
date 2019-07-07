@@ -1,11 +1,7 @@
 from django.db import models
-#from django.contrib.auth.models import AbstractUser
+# creating our modles.
 
-class user(models.Model):
 
-	name=models.CharField(max_length=200)
-	p_name=models.CharField(max_length=50)
-	mobile= models.IntegerField()
 
 class Repo(models.Model):
 	r_id =models.AutoField(primary_key=True)
